@@ -15,7 +15,7 @@ int main()
     printf("Enter c : ");
     scanf("%f",&c);
     
-//Couldn't add a!=0 part
+
     delta = pow(b, 2)-(4*a*c);
 
     x = (-b+sqrt(delta))/(2*a);
