@@ -25,15 +25,17 @@ int main()
     printf("\nx1 : %.3f", x);
     printf("\nx2 : %.3f\n", y);
 
-    if  (delta < 0)
+    if  (delta < 0){
         printf("There are no real roots.");
         printf("Discriminant is = %1.f",delta);
-    else if (delta == 0)
+    }
+    else if (delta == 0){
         printf("There are two real, identical roots.");
-        printf("Discriminant is = %1.f",delta);
-    else if (delta > 0)
+        printf("Discriminant is = %1.f",delta); 
+    }
+    else if (delta > 0){
         printf("There are two real roots.\n");
         printf("Discriminant is = %1.f",delta);
-
+    }
 return 0;
 }
